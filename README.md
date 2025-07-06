@@ -45,7 +45,10 @@ To run the entire data analysis and modeling pipeline, execute the `main.py` scr
 python main.py
 ```
 ##Additionally, if you want to test more, use jupytext to convert `main.py` to `main.ipynb`
-using ```bash jupytext --to notebook main.py```
+using 
+```bash 
+jupytext --to notebook main.py
+```
 
 The script will generate several plots to visualize the data and the model's performance.
 
