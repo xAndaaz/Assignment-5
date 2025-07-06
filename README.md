@@ -1,12 +1,12 @@
 # Ames Housing Price Prediction
 
-This project demonstrates a complete data science workflow for predicting housing prices on the Ames Housing dataset. It showcases skills in exploratory data analysis (EDA), feature engineering, data cleaning, and predictive modeling.
+This project demonstrates a complete data science workflow for predicting housing prices on the Ames Housing dataset. It showcases skills in exploratory data analysis (EDA), feature engineering, data preprocessing, and predictive modeling.
 
 ## Project Overview
 
-The primary goal of this project is to build a model that accurately predicts the sale price of houses in Ames, Iowa. The project is structured as a single Python script (`main.py`) that performs the following steps:
+The primary goal of this project is to build a model that accurately predicts the sale price of houses. The project is structured as a single Python script (`main.py`) that performs the following steps:
 
-1.  **Exploratory Data Analysis (EDA):** The script begins by analyzing the target variable, `SalePrice`, to understand its distribution. It identifies and corrects for skewness using a log transformation.
+1.  **Exploratory Data Analysis (EDA):** The script begins by analyzing the target variable, `SalePrice`, to understand its distribution. It identifies and corrects for right skewness using a log transformation.
 2.  **Feature Engineering:** New, insightful features are created from the existing data to improve model performance. These include:
     *   `TotalSF`: Total square footage of the house.
     *   `TotalBath`: Total number of bathrooms.
@@ -26,11 +26,11 @@ The primary goal of this project is to build a model that accurately predicts th
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/ames-housing-prediction.git
+    git clone https://github.com/xAndaaz/Assignment-5.git
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd ames-housing-prediction
+    cd Assignment-5
     ```
 3.  Install the required libraries:
     ```bash
@@ -44,6 +44,8 @@ To run the entire data analysis and modeling pipeline, execute the `main.py` scr
 ```bash
 python main.py
 ```
+##Additionally, if you want to test more, use jupytext to convert `main.py` to `main.ipynb`
+using `jupytext --to notebook main.py`
 
 The script will generate several plots to visualize the data and the model's performance.
 
