@@ -1,4 +1,4 @@
-# Ames Housing Price Prediction
+# Housing Price Prediction
 
 This project demonstrates a complete data science workflow for predicting housing prices on the Ames Housing dataset. It showcases skills in exploratory data analysis (EDA), feature engineering, data preprocessing, and predictive modeling.
 
@@ -45,7 +45,7 @@ To run the entire data analysis and modeling pipeline, execute the `main.py` scr
 python main.py
 ```
 ##Additionally, if you want to test more, use jupytext to convert `main.py` to `main.ipynb`
-using `jupytext --to notebook main.py`
+using ```bash jupytext --to notebook main.py```
 
 The script will generate several plots to visualize the data and the model's performance.
 
